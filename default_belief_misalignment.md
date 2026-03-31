@@ -1,3 +1,5 @@
+Caption: Belief misalignment values across LLMs without explicit instruction to be deceptive, where each entry represents the mean value with the corresponding std deviation, normalized between [0,1]. This is an updated version of Table 2 in our paper, including results from gpt-5-mini and gemini-2.5-flash-lite.
+
 ### Default Belief Misalignment across LLMs
 | LLM Name | Housing | Nutrition | Charity | Deal or no Deal |
 |---|---|---|---|---|
@@ -11,5 +13,3 @@
 | **gemini-2.5-flash-lite** | 0.44 ± 0.17 | 0.29 ± 0.07 | 0.39 ± 0.12 | 0.12 ± 0.14 |
 | gemma-2-27b-it | 0.48 ± 0.13 | 0.28 ± 0.10 | 0.51 ± 0.14 | 0.45 ± 0.18 |
 | mistral-instruct | 0.30 ± 0.09 | **0.61** ± 0.18 | 0.48 ± 0.21 | 0.11 ± 0.12 |
-
-Caption: Belief misalignment values across LLMs without explicit instruction to be deceptive, where each entry represents the mean value with the corresponding std deviation, normalized between [0,1]. This is an updated version of Table 2 in our paper, including results from gpt-5-mini and gemini-2.5-flash-lite.
