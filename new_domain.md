@@ -30,3 +30,5 @@
 | falsehood_count | 0.044118 ± 0.105000 | 0.047368 ± 0.064669 |
 | deceptive_regret | 0.034016 ± 0.068804 | 0.027204 ± 0.044112 |
 | belief_misalignment | 0.125971 ± 0.254480 | 0.198738 ± 0.350768 |
+
+Caption: Manipulation Susceptibility Domain, Deceptive vs. Non-Deceptive Agent Metrics Across Models. Results from 100 simulated conversations per model (gpt-4o-mini, Llama-3.1-70B-Instruct, Llama-3.1-70B) in Financial and Emotional decision-making scenarios, using real demographic data from 200+ users. Across all instruction-tuned models, deceptive prompting substantially reduces user success (user_best_option) and raises belief misalignment by more than tenfold, while explicit deception_count and falsehood_count remain low, highlighting belief misalignment as a more sensitive indicator of strategic deception than surface-level falsehood detection. Llama-3.1-70B (base, non-instruction-tuned) shows higher baseline deception and less pronounced separation between conditions, consistent with its lack of alignment fine-tuning.
